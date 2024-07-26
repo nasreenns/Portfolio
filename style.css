@@ -1,0 +1,131 @@
+ .nametop{
+    float: left;
+    margin-left: 10%;
+}
+.cont{
+    float: right;
+}
+.topnav
+{
+    padding-left: 16px;
+    overflow: hidden;
+    background-color: rgb(238, 205, 144);
+}
+.active{
+    font-size: medium;
+    color: grey;
+    text-decoration: none;
+    margin-left: auto;
+}
+  .topnav a {
+    float: left;
+    text-align: center;
+    padding: 25px 45px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    color: black;
+  }
+  .lor{
+    background-color:rgb(172, 212, 212); 
+    padding: 80px;
+    display: flex;
+
+  }
+ .pp{
+    font-size: 20px;
+ }
+ li{
+    list-style-type: none;
+ }
+ .btn{
+    padding: 20px;
+    color:rgb(131, 232, 232);
+    border-color: rgb(172, 212, 212);
+    background-color: rgb(221, 250, 250);
+ }
+ .btn:hover{
+    color:black;
+    background-color: rgb(238, 205, 144);
+ }
+.text-content {
+    padding-left: 50px;
+
+}
+.image-content {
+    flex: 1;
+    text-align: right; 
+    max-width: 45%;
+}
+
+.image-content img {
+    max-width: 100%; 
+    height: auto;
+}
+.about{
+    background-color:rgb(238, 205, 144); 
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+  }
+.image {
+    float: left;
+    margin-right: 20px; 
+}
+.content {
+    overflow: hidden; 
+    padding: 10%;
+}
+.skills{
+  background-color:rgb(172, 212, 212) ;
+  padding-top: 10px;
+}
+
+#font{
+  padding-top: 40px;
+ font-size: 70px;
+ padding-bottom: 40px;
+}
+.made{
+  background-color:rgb(238, 205, 144);
+  padding-top: 10px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 50px; 
+  max-width: 1000px; 
+  justify-content: center;
+  padding-top: 10px;
+padding-bottom: 10px;
+}
+.imgg{
+  width:250px;
+}
+ul{
+  border: 10px solid rgb(7, 170, 170);
+  border-radius: 10%;
+  border-style:ridge;
+
+}
+ul:hover{
+  border: 10px solid rgb(6, 85, 85);
+  border-width: 10px;
+  background-image: linear-gradient(to bottom right,rgb(39, 170, 170), rgb(15, 128, 128),rgb(6, 85, 85));
+  
+}
+.contact{
+  background-color:rgb(172, 212, 212) ;
+  padding-top: 10px;
+}
+h1{
+  padding-bottom: 15px;
+padding-top: 30px;
+}
+.icon{
+padding-bottom: 40px;
+}
